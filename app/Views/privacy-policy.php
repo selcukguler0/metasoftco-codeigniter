@@ -92,7 +92,7 @@
 
 <body>
 
-	<%- include('partials/body-top.ejs'); -%>
+	<?php echo view("layouts/body-top.php"); ?>
 		<div class="page-wrap">
 
 			<?php echo view("layouts/header.php"); ?>

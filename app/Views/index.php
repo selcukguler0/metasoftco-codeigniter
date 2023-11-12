@@ -430,9 +430,9 @@
 
             <?php echo view("layouts//contactUs-footer.php"); ?>
         </main>
-        <%- include('partials/footer.ejs'); -%>
+        <?php echo view("layouts/footer.php"); ?>
 
-        <%- include('partials/contact-modal.ejs'); -%>
+        <?php echo view("layouts/contact-modal.php"); ?>
         <div class="cursor__wrapper">
             <div class="cursor">
                 <div class="button mod--project">İncele</div>
