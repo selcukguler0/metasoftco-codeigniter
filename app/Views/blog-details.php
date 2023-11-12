@@ -203,7 +203,7 @@
                                     <?php foreach ($otherBlogs as $blog) : ?>
                                         <div role="listitem" class="swiper-slide w-dyn-item">
                                             <div class="article__wrap">
-                                                <div class="article__news-info"><a href="/blog/ <?php echo $blog->slug ?>" class="article__img-link w-inline-block"><img src="/blog/<?php echo $blog->img ?>" style="object-fit: cover;" loading="lazy" alt="" sizes="(max-width: 767px) 254px, 30vw" class="article__img"></a>
+                                                <div class="article__news-info"><a href="/bloglar/<?php echo $blog->slug ?>" class="article__img-link w-inline-block"><img src="/blog/<?php echo $blog->img ?>" style="object-fit: cover;" loading="lazy" alt="" sizes="(max-width: 767px) 254px, 30vw" class="article__img"></a>
                                                     <div class="article__date">
                                                         <?php echo $blog->createdAt ?>
                                                     </div><a href="/blog/<%= blog.slug %>" class="article__title">
