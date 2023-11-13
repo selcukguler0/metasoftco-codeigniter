@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/metasoftco/metasoftco.com
+    - /bin/cp app $DEPLOYPATH
